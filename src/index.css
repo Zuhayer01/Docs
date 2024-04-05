@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: Gil-light;
+}
+body{
+    overflow: hidden;
+}
+::selection{
+    color: rgb(0, 255, 200);
+}
+@font-face {
+    font-family: Gil-bold;
+    src: url(../src/assets/Font/Gilroy-ExtraBold.woff2);
+}
+@font-face {
+    font-family: Gil-light;
+    src: url(../src/assets/Font/Gilroy-Light.woff2);
+}
